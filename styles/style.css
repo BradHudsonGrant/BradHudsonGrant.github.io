@@ -266,7 +266,7 @@ h5 {
   margin-bottom: 10px;
   font-family: Roboto, sans-serif;
   color: grey;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 20px;
   font-weight: 400;
 }
@@ -277,7 +277,7 @@ p {
   color: grey;
   font-size: 18px;
   line-height: 32px;
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 
 a {
@@ -318,7 +318,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  min-height: 95vh;
+  min-height: 90vh;
   padding-bottom: 10vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -547,6 +547,28 @@ figcaption {
   color: #fff;
 }
 
+.column.background-image {
+  background-position:left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sanImg{
+  background-image: url("../../imgs/Santander-banner.svg");
+  background-color: #ff0000;;
+}
+
+.btImg{
+  background-image: url("../../imgs/BT-banner.svg");
+  background-color: #6300a9;
+}
+
+.qaImg{
+  background-image: url("../../imgs/QA-banner.svg");
+  background-color: #005baa;
+}
+
 .column._100vh:hover {
   background-color: rgba(0, 0, 0, .75);
   opacity: 1;
@@ -572,13 +594,7 @@ figcaption {
   background-color: #1b1b1b;
 }
 
-.column.background-image {
-  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png");
-  background-position: 100% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+
 
 .column.wrapper-img-about {
   width: 50%;
@@ -671,7 +687,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 30vw;
+  width: 50vw;
   margin-top: 30px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -1631,8 +1647,8 @@ figcaption {
 }
 
 .project-description {
-  color: #7a7a7a;
-  font-size: 18px;
+  color: #E2E2E2;
+  font-size: 20px;
 }
 
 .arrow-2 {
@@ -1673,7 +1689,6 @@ html.w-mod-js *[data-ix="load-up"] {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    min-height: 80vh;
   }
   .wrapper-title {
     width: 100vw;
@@ -1816,6 +1831,10 @@ html.w-mod-js *[data-ix="load-up"] {
     width: 100vw;
   }
 
+  h5 {
+    font-size: 17px;
+  }
+
   .vertical {
     width: 100vw;
     height: 20vh;
@@ -1942,6 +1961,10 @@ html.w-mod-js *[data-ix="load-up"] {
   .hero.pages {
     padding-left: 40px;
     text-align: center;
+  }
+
+  h5 {
+    font-size: 14px;
   }
 
   .vertical-social {
