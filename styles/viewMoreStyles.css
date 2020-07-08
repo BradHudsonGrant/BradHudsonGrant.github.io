@@ -1,0 +1,40 @@
+.detailsBox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: visible;
+    min-height: 86vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    margin: 7vh;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background-color: rgba(0, 0, 0, .75);
+    color: #fff;
+  }
+
+  .page {
+    display: block;
+    color: #000;
+    background-color: white;
+    transition: background-color 0.5s ease;
+  }
+
+  .sanColour {
+    background:#ff0000;
+  }
+
+  .btColour {
+    background:#6300a9;
+  }
+  
+  .qaColour {
+    background:#005baa;
+  }
