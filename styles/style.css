@@ -555,17 +555,17 @@ figcaption {
 }
 
 .sanImg{
-  background-image: url("../../imgs/Santander-banner.svg");
+  background-image: url("../imgs/Santander-banner.svg");
   background-color: #ff0000;;
 }
 
 .btImg{
-  background-image: url("../../imgs/BT-banner.svg");
+  background-image: url("../imgs/BT-banner.svg");
   background-color: #6300a9;
 }
 
 .qaImg{
-  background-image: url("../../imgs/QA-banner.svg");
+  background-image: url("../imgs/QA-banner.svg");
   background-color: #005baa;
 }
 
